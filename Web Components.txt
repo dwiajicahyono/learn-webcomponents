@@ -1,0 +1,15 @@
+start 17/03/2023
+
+Web component memudahkan developer untuk membuat komponen UI
+
+Standard : merupakan standar yang ditetapkan oleh w3c dalam pembuatan komponen yang reusable
+compatibility : digunakan pada framework seperti amgular, react ataupun vue
+Simple : tidak memerlukan konfigurasi khusus layaknya framework yang ada
+
+Custom elements : Digunakan untuk membuat elemen baru 
+Shadow DOM : Digunakan untuk membuat HTML element terenkapsulasi dari gangguan luar.
+
+
+Custom Element 
+dengan custom element kita, kita dapat mebuat struktur element yang lebih rapih lagi, dalam membuat custom element
+kita menuliskannya dengan menggunakan javascript Class. 
