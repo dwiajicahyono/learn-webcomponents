@@ -13,3 +13,11 @@ Shadow DOM : Digunakan untuk membuat HTML element terenkapsulasi dari gangguan l
 Custom Element 
 dengan custom element kita, kita dapat mebuat struktur element yang lebih rapih lagi, dalam membuat custom element
 kita menuliskannya dengan menggunakan javascript Class. 
+
+18/03/2023
+Siklus Hidup dari custom element 
+kita dapat memanfaatkan lifecycle callback pada setiap logika siklus Hidup, logika tersebut antara lain :
+- connectedCallback() => terpanggil jika elemen berhasil ditambahkan ke DOM
+- disconnectCallback() => terpanggil jika elemen dikeluarkan (remove()) dari DOM
+- attributeChangedCallback() => terpanggil jika nilai atribut yang diobserve melalui fungsi static get observedAttribute diubah
+- adoptedCallback() => terpanggil jikaelemen dipindahka  pada dokumen baru.
