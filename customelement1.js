@@ -28,9 +28,18 @@ class ImageFigure extends HTMLElement {
   
   customElements.define("image-figure", ImageFigure);
 /*
+ada nilai baru yaitu :
+attributeChangedCallback
+static get observedAttributes
+Fungsi attributeChangedCallback akan terpanggil ketika nilai 
+atribut yang diamati pada fungsi observedAttributes diubah nilainya. 
+Kemudian pada callback fungsi attributeChangedCallback inilah kita menetapkan logika perubahan.
+
 attributeChangedCallback menetapkan logika perubahan 
 pada fungsi ini juga teradapat 3 argumrnt fungsi yang bisa dimanfaatkan yaitu :
 - name : nama dari atribut yang berubah
 - old Value : Nilai pada atribut sebelum berubah
 - new Value : Nilai baru yang ditetapkan pada atribut
+
+Penjelasan dapat dilihat di web component txt
 */
